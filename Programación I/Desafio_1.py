@@ -1,15 +1,15 @@
-# ## Desafio 1) ##
+## Desafio 1) ##
 
-# altura = int(input("Ingrese la altura del jugador: "))
+altura = int(input("Ingrese la altura del jugador: "))
 
-# if altura <= 160:
-#     print("La posición del jugador es Base")
-# elif 160 < altura <= 179:
-#     print("La posición del jugador es Escolta")
-# elif 180 < altura <= 199:
-#     print("La posición del jugador es Alero")
-# else:
-#     print("La posición del jugador es Ala-Pivot o Pivot")
+if altura <= 160:
+    print("La posición del jugador es Base")
+elif 160 < altura <= 179:
+    print("La posición del jugador es Escolta")
+elif 180 < altura <= 199:
+    print("La posición del jugador es Alero")
+else:
+    print("La posición del jugador es Ala-Pivot o Pivot")
 
 ## Desafio 2) ##
 
